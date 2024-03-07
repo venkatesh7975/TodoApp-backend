@@ -1,0 +1,16 @@
+post http://localhost:4001/login/
+Content-Type:application/json
+
+{
+    "username":"venkatesh",
+    "password":"Venkatesh@123"
+}
+
+####
+get http://localhost:4001/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZ2IiwiaWF0IjoxNzA5MjIxOTc3fQ.yTNJmPJZIAi7YTTaeXzCn6I1t4oAxjenH4W7sqm6qcE;
+
+####
+get http://localhost:4001/tasks/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZ2IiwiaWF0IjoxNzA5MjIxOTc3fQ.yTNJmPJZIAi7YTTaeXzCn6I1t4oAxjenH4W7sqm6qcE;
+
